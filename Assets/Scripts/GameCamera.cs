@@ -11,7 +11,7 @@ public class GameCamera : MonoBehaviour {
 	public void SetTarget(Transform t) {
 		target = t;
 	}
-	
+	// pruvet
 	// Track target
 	void LateUpdate() {
 		if (target) {
